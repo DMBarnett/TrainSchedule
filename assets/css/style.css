@@ -1,0 +1,21 @@
+h1, h4{
+    text-align: center;
+}
+
+label{
+    display: block;
+}
+
+.trainDiv{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.trainRowTitle{
+    padding-left: 10px;
+}
+
+#scheduleUpdater{
+    padding-bottom: 10px;
+}
