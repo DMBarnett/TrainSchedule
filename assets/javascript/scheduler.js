@@ -108,8 +108,8 @@ $(document).ready(function () {
 
         var newName = prompt("Enter new train name:");
         var newTrainDestination = prompt("Enter the new destination:");
-        var newStartingTime = prompt("Enter the new starting time:");
-        var newTrainFrequency = prompt("Enter the new train frequency:");
+        var newStartingTime = prompt("Enter the new starting time:", "hh:mm AM format");
+        var newTrainFrequency = prompt("Enter the new train frequency:", "Must be a number.");
 
         database.ref().child(workingKey).update({
             name:newName,
